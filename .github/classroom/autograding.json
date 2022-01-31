@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "8, 173, 147",
+      "setup": "javac BaseKAdder.java",
+      "run": "java BaseKAdder",
+      "input": "8\r\n173\r\n147",
+      "output": "The sum of the base 8 numbers 173 and 147 is 342",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "20, ABCDEF, GH0IJ",
+      "setup": "javac BaseKAdder.java",
+      "run": "java BaseKAdder",
+      "input": "20\r\nABCDEF\r\nGH0IJ",
+      "output": "The sum of the base 20 numbers ABCDEF and GH0IJ is B89EDE",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "12, 4D, 3A",
+      "setup": "javac BaseKAdder.java",
+      "run": "java BaseKAdder",
+      "input": "12\r\n4D\r\n3A",
+      "output": "ERROR: Invalid number given, 4D cannot be a base 12 number",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "4, 12, 24",
+      "setup": "javac BaseKAdder.java",
+      "run": "java BaseKAdder",
+      "input": "4\r\n12\r\n24",
+      "output": "ERROR: Invalid number given, 24 cannot be a base 4 number",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

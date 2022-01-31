@@ -14,7 +14,7 @@
 173\
 147\
 ***Example Output:***\
-342\
+The sum of the base 8 numbers 173 and 147 is 342\
 \
 ***Example Input:***\
 12\

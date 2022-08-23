@@ -1,5 +1,7 @@
 # Base K Adder
 
+## Due: DoW MM/DD at 11:59 PM
+
 - Create a program called `BaseKAdder.java`
 - Prompt the user for an integer
   - This will be the base of the next two number

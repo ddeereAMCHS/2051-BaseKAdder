@@ -1,6 +1,6 @@
 # Base K Adder
 
-## Due: Fri 1/27 at 11:59 PM
+## Due: Mon 1/29 at 11:59 PM
 
 - Create a program called `BaseKAdder.java`
 - Write a function to check if a number is valid given a base
